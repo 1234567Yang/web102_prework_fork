@@ -166,7 +166,7 @@ const numUnfundedGames = unfundedGames.length;
 
 
 // create a string that explains the number of unfunded games using the ternary operator
-const descriptionText = `A total of $${totalRaised.toLocaleString()} has been raised for ${totalGames} games. Currently, ${numUnfundedGames} ${numUnfundedGames === 1 ? "game remains" : "games remain"} unfunded.`;
+const descriptionText = `A total of $${totalRaised.toLocaleString()} has been raised for ${totalGames} games. Currently, ${numUnfundedGames} ${numUnfundedGames === 1 ? "game remains" : "games remain"} unfunded. We need your help to found these amazing games!`;
 
 
 // create a new DOM element containing the template string and append it to the description container
